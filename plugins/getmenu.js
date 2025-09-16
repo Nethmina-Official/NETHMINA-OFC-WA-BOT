@@ -144,7 +144,7 @@ ${menu.search}
 `;
       
       await robin.sendPresenceUpdate('recording', from);
-      await robin.sendMessage(from, { audio: { url: "https://github.com/Official-Nethmina/NETHMINA-OFC-WABOT/raw/refs/heads/main/data/any5.m4a" }, mimetype: 'audio/mpeg', ptt: true }, { quoted: mek });
+      await robin.sendMessage(from, { audio: { url: "https://github.com/Nethmina-Official/NETHMINA-OFC-WA-BOT/raw/refs/heads/main/data/audio/any5.m4a" }, mimetype: 'audio/mpeg', ptt: true }, { quoted: mek });
       await robin.sendMessage(
         from,
         {

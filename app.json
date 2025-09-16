@@ -1,0 +1,31 @@
+{
+  "name": "NETHMINA-OFC-WA-BOT",
+  "description": "A Powerful multidevice WhatsApp bot",
+  "logo": "https://n.uguu.se/FbYqMRcg.jpeg",
+  "keywords": ["bot"],
+  "success_url": "/",
+
+  "env": {
+    "SESSION_ID": {
+      "description": "PUT YOUR SESSION ID HERE",
+      "required": true
+    },  
+
+    "ALIVE_IMG": {
+      "description": "PUT YOUR ALIVE IMG HERE",
+      "required": true
+    },
+    
+    "ALIVE_MSG": {
+      "description": "PUT YOUR ALIVE MSG HERE",
+      "required": true
+    }   
+},
+
+     "buildpacks": [
+        {
+            "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+        }
+     ],
+  "stack": "heroku-24"
+}

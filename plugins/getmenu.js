@@ -49,6 +49,7 @@ cmd(
         convert: "",
         search: "",
         ai: "",
+        other: "",
       };
 
       for (let i = 0; i < commands.length; i++) {
